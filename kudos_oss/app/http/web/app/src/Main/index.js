@@ -10,7 +10,7 @@ class Main extends Component {
    return (
      <Router>
        <Security
-         issuer={'https://blueprint-dev-138467.okta.com'}
+         issuer={'https://dev-138467.oktapreview.com/oauth2/default'}
          client_id={'0oaj4j00clRgpTyzB0h7'}
          redirect_uri={'http://localhost:8080/implicit/callback'}
          scope={['openid', 'profile', 'email']}>
